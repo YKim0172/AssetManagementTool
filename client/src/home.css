@@ -1,0 +1,568 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-new{
+    background-color: black;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.logo-main {
+    color: white;
+    border: 2.5px solid white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 30px;
+    padding: 6px;
+    font-family: "Tangerine";
+    font-size: 45px;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 80px;
+    width: 100vw;
+    position: fixed;
+}
+
+.auth-buttons{
+    display: flex;
+    background-color: black;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 300px;
+    gap: 40px;
+}
+
+.button{
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 2px 20px;
+    font-size: 150%;
+    font-family: "NewsCycleRegular";
+}
+
+.button:hover{
+    background-color: goldenrod;
+    color: black;
+    border: 1px solid goldenrod;
+    border-radius: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 2px 20px;
+    font-size: 150%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "NewsCycleRegular";
+}
+
+.wrapper-main{
+    height: 100%;
+}
+
+.wrapper-second{
+    display: block;
+}
+
+.wrapper-third{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.opening-statement-area{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 80%;
+    width: 65%;
+    overflow: hidden;
+    border-radius: 60px;
+}
+
+.first-row{
+    height: 75vh;
+    background: black;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.second-row{
+    height: 75vh;
+    background: white;
+    display: flex;
+    position: relative;
+
+}
+
+
+.opening-statement{
+    width: 80%;
+    font-size: 4.5rem;
+    font-weight: 400;
+    font-family: "DMSans-Regular";
+    color: white;
+    text-align: center;
+}
+
+.opening-words {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 99%;
+    width: 99%;
+}
+
+video {
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.second-row .message-box{
+    background-color: white;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    padding-top: 5vh;
+    padding-left: 8vh;
+    display: flex;
+
+}
+
+.message-truth{
+    font-size: 42px;
+    font-family: "DMSans-Regular";
+    color: black;
+}
+
+.banners{
+    border: 1px solid purple; 
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.image-bg-fade{
+    width: 100%;
+    height: 100%;
+}
+
+.pillars{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pillars-2{
+    position: relative;
+    width: 50%;
+    height: 75vh;
+    /* border: 1px solid indianred; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.pillars-3{
+    position: relative;
+    width: 50%;
+    height: 75vh;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.stock-pillar-1{
+    height: 25%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stock-pillar-left{
+    background-color: white;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 35%;
+    height: 90%;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.stock-pillar-right{
+    background-color: white;
+    position: relative;
+    width: 65%;
+    height: 90%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stock-pillar-left-2{
+    background-color: white;
+    position: relative;
+    width: 65%;
+    height: 90%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stock-pillar-right-2{
+    background-color: white;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 35%;
+    height: 90%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+.msg-pillar{
+    font-size: 25px;
+    font-family: "DMSans-Regular";
+    width: 80%;
+    height: 80%
+    /*border: 3px solid green;*/
+}
+
+.img-candlestick{
+    width: 100%;
+    height: 100%;
+}
+
+.crypto-pillar{
+    margin-top: 2%;
+    height: 40%;
+    width: 40%;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.img-crypto{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+.forex-pillar{
+    margin-top: 2%;
+    height: 40%;
+    width: 40%;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+
+.img-forex{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.message-pillar-area{
+    width: 50%;
+    /* border: 1px solid salmon; */
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.message-pillar{
+    font-size: 50px;
+    font-family: "DMSans-Regular";
+    width: 80%;
+    /*border: 3px solid green;*/
+    position: relative;
+}
+
+.questions-pillar{
+    font-size: 20px;
+    font-family: "DMSans-Regular";
+    width: 80%;
+    /* border: 3px solid blueviolet; */
+    position: absolute;
+}
+
+.message-until-now{
+    font-size: 44px;
+    font-family: "DMSans-Regular";
+    width: 80%;
+    /* border: 3px solid blue; */
+    bottom: 20%;
+    position: absolute;
+    text-align: center;
+}
+
+.third-row{
+    height: 75vh;
+    background: rgb(24, 17, 45);
+    display: flex;
+    position: relative;
+}
+
+.third-row-text-area{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.third-row-message-1{
+    width: 700px;
+    font-size: 40px;
+    color: #ff385c;
+    font-family: "DMSans-Regular";
+    text-align: center;
+}
+
+.third-row-message-2{
+    width: 700px;
+    font-size: 40px;
+    color: white;
+    font-family: "DMSans-Regular";
+    text-align: center;
+}
+
+.third-row-message-3{
+    width: 700px;
+    font-size: 40px;
+    color: #00FF00;
+    font-family: "DMSans-Regular";
+    text-align: center;
+}
+
+.third-row-images{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img-user-dashboard-1 {
+    width: 700px;
+    height: 300px;
+    border-radius: 40px;
+}
+
+.why-use-message-box{
+    height: 180px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-use-message{
+    text-align: center;
+    font-size: 45px;
+    font-family: "DMSans-Regular";
+}
+
+.fourth-row {
+    height: 900px;
+    width: 100%;
+    background-color: white;
+    display:flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth-row-pillars{
+    height: 700px;
+    width: 450px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-row-pillar-img-area {
+    background-color: white;
+    width: 450px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-row-pillar-text-area {
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-row-pillar-title {
+    font-size: 32px;
+    height: 60px;
+    width: 450px;
+    text-align: center;
+    line-height: 60px;
+    font-family: "DMSans-Regular";
+}
+
+.fourth-row-pillar-msg-area {
+    font-size: 20px;
+    border-top: 3px solid black;
+    width: 450px;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fourth-row-pillar-message {
+    font-size: 30px;
+    width: 450px;
+    height: 320px;
+    text-align: center;
+    position: relative;
+    font-family: "DMSans-Regular";
+}
+
+.fourth-row-img{
+    object-fit: fill;
+    width: 50%;
+    height: 80%;
+}
+
+.fifth-row {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fifth-row-message{
+    font-size: 50px;
+    font-family: "DMSans-Regular";
+    height: 100px;
+    width: 1500px;
+    text-align: center;
+    color: white;
+}
+
+.fifth-row-message-red{
+    font-size: 70px;
+    font-family: "DMSans-Regular";
+    height: 100px;
+    width: 1200px;
+    text-align: center;
+    color: #ff385c;
+}
+
+.join-now-btn {
+    margin-top: 40px;
+    font-size: 36px;
+    font-family: "DMSans-Regular";
+    text-decoration: none;
+    color: black;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.join-now-btn:hover {
+    margin-top: 40px;
+    font-size: 36px;
+    font-family: "DMSans-Regular";
+    text-decoration: none;
+    color: black;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    line-height: 50px;
+    background-color: goldenrod;
+    border: 2px solid goldenrod;
+    border-radius: 40px;
+}

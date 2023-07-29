@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "finnhub": "^1.2.17",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1",
+    "websocket": "^1.0.34",
+    "ws": "^8.13.0"
+  },
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

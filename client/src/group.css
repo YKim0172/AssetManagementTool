@@ -1,0 +1,214 @@
+.category-area {
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: snow;
+    margin: 15px;
+    height: 520px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.category-area:hover {
+    box-shadow: 25px 25px gray;
+    border: 5px solid #ff385c;
+    border-radius: 50px;
+    background-color: snow;
+    margin: 15px;
+    height: 520px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.modes-bubble{
+    width: 400px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.modes-bubble-chosen-btn{
+    width: 120px;
+    height: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "DMSans-Regular";
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #ff385c;
+}
+
+.modes-bubble-btn{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "DMSans-Regular";
+    color: black;
+}
+
+.category-piechart-area{
+    height: 412px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.piechart-instruction {
+    height: 110px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 16px;
+    font-family: 'DMSans-Regular';
+    justify-content: center;
+    overflow: hidden;
+}
+
+.group-bubble-header{
+    width: 360px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+
+.group-name-text{
+    font-size: 24px;
+    font-family: "DMSans-Regular";
+}
+
+.delete-btn{
+    border-radius: 40px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 0px;
+    background-color: #ff385c;
+}
+
+.add-btn{
+    border-radius: 40px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 40px;
+    background-color: #00FF00;
+
+}
+
+.img-delete-group-icon{
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+}
+
+.img-add-group-icon{
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+}
+
+.legend-bar{
+    height: 28px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.ticker-label{
+    width: 43px;
+    font-size: 14px;
+    font-family: "DMSans-Regular";
+    margin-left: 3px;
+    border-right: 2px solid black;
+}
+
+.quantity-label{
+    width: 60px;
+    font-size: 14px;
+    font-family: "DMSans-Regular";
+    margin-left: 3px;
+    border-right: 2px solid black;
+}
+
+.avg-price-label{
+    width: 62px;
+    font-size: 14px;
+    font-family: "DMSans-Regular";
+    margin-left: 3px;
+    border-right: 2px solid black;
+}
+
+.percent-group-label{
+    width: 74px;
+    font-size: 14px;
+    font-family: "DMSans-Regular";
+    margin-left: 3px;
+    border-right: 2px solid black;
+}
+
+.percent-portfolio-label{
+    width: 90px;
+    font-size: 14px;
+    font-family: "DMSans-Regular";
+    margin-left: 3px;
+}
+
+.group-content-wrapper{
+    height: 320px;
+    width: 385px;
+    overflow-y: scroll;
+    display: block;
+}
+
+.ticker-wrapper{
+    border-radius: 40px;
+    width: 355px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.entry-label{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 50px;
+    font-size: 14px;
+    font-family: "DMSans-Regular";
+    margin-left: 3px;
+    border-right: 2px solid black;
+}
+
+.edit-entry-btn{
+    border-radius: 40px;
+    height: 27px;
+    width: 27px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-edit-entry-icon{
+    object-fit: cover;
+    height: 25px;
+    width: 25px;
+}
