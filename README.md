@@ -8,6 +8,3 @@ Currently, many brokerages do not offer solutions to these problems in an elegan
 
 ## How the website works (Quick overview)
 Users can first create an account with their name, email, and password. Once logged in, users can create "groups", which are categories that users can place their stocks in. The user can just type a name to create their groups, and users can place stocks into their category my entering the ticker symbol, quantity bought, and average price at which they bought them at. From that point on, the website will show the user all the details regarding their investments through graphs and text. More detailed descriptions and visuals are provided below.
-
-## Screenshots and explanations :
-IMAGE
